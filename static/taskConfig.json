@@ -1,0 +1,137 @@
+[
+    {
+        "name": "You-Get",
+        "key": "you-get",
+        "options": [
+            {
+                "key": "url",
+                "name": "URL",
+                "value": "",
+                "isStore": false,
+                "cmdKey": ""
+            },
+            {
+                "key": "savePath",
+                "name": "保存路径",
+                "value": "",
+                "isStore": true,
+                "globalKey": "save.path",
+                "cmdKey": "--output-dir",
+                "valueType": "folder"
+            },
+            {
+                "key": "cookies",
+                "name": "Cookies",
+                "value": "",
+                "isStore": true,
+                "cmdKey": "-c"
+            },
+            {
+                "key": "noProxy",
+                "name": "",
+                "value": "--no-proxy",
+                "isStore": false,
+                "cmdKey": ""
+            }
+        ],
+        "created_at": "2019-11-16T08:15:33.254Z",
+        "updated_at": "2020-04-28T08:35:54.860Z"
+    },
+    {
+        "name": "You-Get代理",
+        "key": "you-get",
+        "options": [
+            {
+                "key": "url",
+                "name": "URL",
+                "value": "",
+                "isStore": false,
+                "cmdKey": ""
+            },
+            {
+                "key": "savePath",
+                "name": "保存路径",
+                "value": "",
+                "isStore": true,
+                "globalKey": "save.path",
+                "cmdKey": "--output-dir"
+            },
+            {
+                "key": "cookies",
+                "name": "Cookies",
+                "value": "",
+                "isStore": true,
+                "cmdKey": "-c"
+            },
+            {
+                "key": "proxy",
+                "name": "代理",
+                "value": "127.0.0.1:10808",
+                "isStore": true,
+                "cmdKey": "-x"
+            }
+        ],
+        "created_at": "2019-12-02T05:22:54.069Z",
+        "updated_at": "2019-12-02T05:24:45.596Z"
+    },
+    {
+        "name": "YouTube-DL",
+        "key": "youtube-dl",
+        "options": [
+            {
+                "key": "url",
+                "name": "URL",
+                "value": "",
+                "isStore": false,
+                "cmdKey": ""
+            },
+            {
+                "key": "savePath",
+                "name": "保存路径",
+                "value": "",
+                "isStore": true,
+                "globalKey": "save.path",
+                "cmdKey": "--cache-dir"
+            },
+            {
+                "key": "cookies",
+                "name": "Cookies",
+                "value": "",
+                "isStore": true,
+                "cmdKey": "--cookies"
+            }
+        ],
+        "created_at": "2019-12-09T10:24:38.118Z",
+        "updated_at": "2019-12-09T10:24:38.118Z"
+    },
+    {
+        "name": "ffmpeg转码",
+        "key": "ffmpeg",
+        "options": [
+            {
+                "key": "input",
+                "name": "输入",
+                "value": "",
+                "isStore": false,
+                "cmdKey": "-i"
+            },
+            {
+                "key": "vcodec",
+                "name": "类型",
+                "value": "h264",
+                "isStore": false,
+                "cmdKey": "-vcodec"
+            },
+            {
+                "key": "output",
+                "name": "输出",
+                "value": "",
+                "isStore": true,
+                "globalKey": "save.path",
+                "cmdKey": ""
+            }
+        ],
+        "created_at": "2019-12-24T05:33:57.635Z",
+        "updated_at": "2019-12-24T05:33:57.635Z"
+    }
+]
