@@ -1,0 +1,10 @@
+.text-over {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
